@@ -38,8 +38,6 @@ export default function App() {
         <Route path="/reseaux" element={<Resaux />} />
       </Routes>
 
-      <footers />
-
      </main>
   )
 }
