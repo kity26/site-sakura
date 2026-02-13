@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import Contact from "./components/Contact"
 import NousRejoindre from "./components/NousRejoindre"
 import Tournois from "./components/Tournois"
 import Reseaux from "./components/Reseaux"
@@ -36,6 +37,7 @@ export default function App() {
         {/* Autres pages */}
         <Route path="/nous-rejoindre" element={<NousRejoindre />} />
         <Route path="/tournois" element={<Tournois />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/reseaux" element={<Reseaux />} />
       </Routes>
 
