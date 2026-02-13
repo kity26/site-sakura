@@ -1,11 +1,11 @@
 import 'boxicons/css/boxicons.min.css';
 
-const Resaux = () => {
+const Contact = () => {
   return (
     <section className="min-h-screen flex items-center justify-center text-white px-5">
       <div className="text-center max-w-2xl">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-light mb-16">
-          NOS RÉSEAUX
+          CONTACT
         </h2>
         
         <div className="flex flex-col gap-12">
@@ -21,31 +21,17 @@ const Resaux = () => {
             </a>
           </div>
 
-          {/* TikTok */}
-          <div className="flex flex-col items-center gap-4">
-            <i className='bx bxl-tiktok text-5xl text-[#e99b63]'></i>
-            <h3 className="text-xl md:text-2xl font-light">TikTok</h3>
-            <a 
-              href="https://www.tiktok.com/@sakura.esport6" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-base md:text-lg text-gray-400 hover:text-[#e99b63] transition-all duration-300"
-            >
-              @sakura.esport
-            </a>
-          </div>
-
           {/* Discord */}
           <div className="flex flex-col items-center gap-4">
             <i className='bx bxl-discord text-5xl text-[#e99b63]'></i>
             <h3 className="text-xl md:text-2xl font-light">Discord</h3>
             <a 
-              href="https://discord.gg/EUqyFQhcbR" 
+              href="https://discord.gg/XN8Vna2T" 
               target="_blank"
               rel="noopener noreferrer"
               className="text-base md:text-lg text-gray-400 hover:text-[#e99b63] transition-all duration-300"
             >
-              Rejoindre le serveur
+              /help
             </a>
           </div>
         </div>
@@ -54,5 +40,5 @@ const Resaux = () => {
   );
 };
 
-export default Resaux;
+export default Contact;
 
