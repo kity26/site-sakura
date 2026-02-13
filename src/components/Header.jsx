@@ -57,13 +57,13 @@ const Header = () => {
         </Link>
 
         <Link
-          to="/reseaux"
+          to="/contact"
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="2500"
           className="text-base tracking-wider transition-all duration-300 hover:text-[#e99b63] hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(233,155,99,0.8)] z-50 relative"
         >
-          RÉSAUX
+          CONTACT
         </Link>
 
       </nav>
@@ -100,10 +100,10 @@ const Header = () => {
           </Link>
 
           <Link
-            to="/reseaux"
+            to="/contact"
             className="text-base tracking-wider transition-all duration-300 hover:text-[#e99b63] hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(233,155,99,0.8)] z-50"
           >
-            RÉSAUX
+            CONTACT
           </Link>
         </nav>
       </div>
