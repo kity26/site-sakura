@@ -2,7 +2,7 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import NousRejoindre from "./components/NousRejoindre"
 import Tournois from "./components/Tournois"
-import Resaux from "./components/Resaux"
+import Reseaux from "./components/Reseaux"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -36,7 +36,7 @@ export default function App() {
         {/* Autres pages */}
         <Route path="/nous-rejoindre" element={<NousRejoindre />} />
         <Route path="/tournois" element={<Tournois />} />
-        <Route path="/reseaux" element={<Resaux />} />
+        <Route path="/reseaux" element={<Reseaux />} />
       </Routes>
 
      </main>

@@ -19,18 +19,16 @@ const Header = () => {
     <header className="sticky top-0 z-50 relative flex justify-between items-center py-4 px4  lg:px-20">
 
       <div className="flex items-center gap-4">
-        {/* Nouveau bouton externe en haut à gauche */}
-        <a 
-          href="https://example.com" 
-          target="_blank" 
-          rel="noopener noreferrer"
+        {/* Bouton Réseaux en haut à gauche */}
+        <Link
+          to="/reseaux"
           className="text-base tracking-wider transition-all duration-300 hover:text-[#e99b63] hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(233,155,99,0.8)]"
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="500"
         >
-          LIEN EXTERNE
-        </a>
+          RÉSEAUX
+        </Link>
       </div>
 
       <h1 data-aos="fade-down"
@@ -93,14 +91,12 @@ const Header = () => {
       {/* Mobile Menu - Hidden by default */}
       <div id='mobileMenu' className='hidden fixed top-16 bottom-0 right-0 left-0 p-5 md:hidden z-40 bg-black bg-opacity-70 backdrop-blur- md'>
         <nav className='flex flex-col gap-6 items-center'>
-          <a 
-            href="https://example.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
+          <Link 
+            to="/reseaux"
             className="text-base tracking-wider transition-all duration-300 hover:text-[#e99b63] hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(233,155,99,0.8)]"
           >
-            LIEN EXTERNE
-          </a>
+            RÉSEAUX
+          </Link>
 
           <Link
             to="/accueil"
