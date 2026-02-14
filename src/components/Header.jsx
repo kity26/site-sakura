@@ -18,24 +18,24 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 relative flex justify-between items-center py-4 px-4  lg:px-20">
 
-      <div className="flex items-center gap-4">
-        {/* Bouton Réseaux en haut à gauche */}
-        <Link
-          to="/reseaux"
-          className="text-base tracking-wider transition-all duration-300 hover:text-[#e99b63] hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(233,155,99,0.8)]"
-        data-aos="fade-down"
-        data-aos-easing="linear"
-          data-aos-duration="500"
-        >
-          RÉSEAUX
-        </Link>
-      </div>
-
       <h1 data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="1500" className="text-2xl md:text-3xl lg:text-4xl font-semibold tracking-[0.18em] m-0 text-[#fff2e6] [text-shadow:0_0_8px_rgba(233,155,99,0.75),0_0_20px_rgba(233,155,99,0.55)]">
         SAKURA
       </h1>
+
+      <div className="flex items-center gap-4">
+        {/* Bouton Réseaux en haut à gauche */}
+        <Link
+          to="/reseaux"
+          className="text-base tracking-wider transition-all duration-300 hover:text-[#e99b63] hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(233,155,99,0.8)]"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="500"
+        >
+          RÉSEAUX
+        </Link>
+      </div>
 
       {/* Desktop Navigation (centrée) */}
       <nav className="hidden md:flex items-center gap-12 absolute left-1/2 transform -translate-x-1/2">
@@ -83,19 +83,19 @@ const Header = () => {
 
       {/* Bouton SIGNIN supprimé */}
 
-        {/* Mobile Menu Botton - Visible only on Mobile */}
-        <button onClick={toggleMobileMenu} className='md:hidden text-3xl p-2 z-50'>
+      {/* Mobile Menu Botton - Visible only on Mobile */}
+      <button onClick={toggleMobileMenu} className='md:hidden text-3xl p-2 z-50'>
         <i class='bx bx-menu'></i>
-        </button>
+      </button>
 
       {/* Mobile Menu - Hidden by default */}
       <div id='mobileMenu' className='hidden fixed top-16 bottom-0 right-0 left-0 p-5 md:hidden z-40 bg-black bg-opacity-70 backdrop-blur- md'>
-        <nav className='flex flex-col gap-6 items-center'>          <Link 
-            to="/reseaux"
-            className="text-base tracking-wider transition-all duration-300 hover:text-[#e99b63] hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(233,155,99,0.8)]"
-          >
-            RÉSEAUX
-          </Link>
+        <nav className='flex flex-col gap-6 items-center'>          <Link
+          to="/reseaux"
+          className="text-base tracking-wider transition-all duration-300 hover:text-[#e99b63] hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(233,155,99,0.8)]"
+        >
+          RÉSEAUX
+        </Link>
 
           <Link
             to="/accueil"
@@ -128,7 +128,7 @@ const Header = () => {
       </div>
 
     </header>
-  )     
+  )
 }
 
 export default Header
