@@ -27,7 +27,7 @@ const Header = () => {
         SAKURA
       </h1>
 
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 z-50">
         {/* Bouton Reseaux */}
         <Link
           to="/reseaux"
@@ -93,9 +93,9 @@ const Header = () => {
         <nav className='flex flex-col gap-6 items-center'>
           <Link
             to="/reseaux"
-            className="text-base tracking-wider transition-all duration-300 hover:text-[#e99b63] hover:scale-110 hover:drop-shadow-[0_0_10px_rgba(233,155,99,0.8)]"
+            className="border border-[#2a2a2a] py-2 sm:py-3 px-8 sm:px-10 rounded-full sm:text-lg text-sm font-semibold tracking-wider transition-all duration-300 hover:bg-[#1a1a1a] bg-gray-300 text-black hover:text-white"
           >
-            RESEAUX
+            RESEAUX <i className='bx bx-link-external'></i>
           </Link>
 
           <Link
