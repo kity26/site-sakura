@@ -5,7 +5,7 @@ const Reseaux = () => {
     {
       nom: 'Twitch',
       url: 'https://www.twitch.tv/skaesport',
-      icon: 'bx-logo-twitch',
+      icon: 'bxl-twitch',
       couleur: 'hover:text-[#9146FF]'
     },
     {
