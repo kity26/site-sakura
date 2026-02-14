@@ -1,22 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-label="Sakura flower icon" role="img">
-  <defs>
-    <linearGradient id="petal" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ffd8e8"/>
-      <stop offset="100%" stop-color="#f08ab6"/>
-    </linearGradient>
-    <radialGradient id="center" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#ffd77a"/>
-      <stop offset="100%" stop-color="#f4a261"/>
-    </radialGradient>
-  </defs>
-  <circle cx="32" cy="32" r="30" fill="#1a1016"/>
-  <g fill="url(#petal)">
-    <ellipse cx="32" cy="16" rx="8" ry="14"/>
-    <ellipse cx="47" cy="24" rx="8" ry="14" transform="rotate(72 47 24)"/>
-    <ellipse cx="43" cy="42" rx="8" ry="14" transform="rotate(144 43 42)"/>
-    <ellipse cx="21" cy="42" rx="8" ry="14" transform="rotate(216 21 42)"/>
-    <ellipse cx="17" cy="24" rx="8" ry="14" transform="rotate(288 17 24)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-label="Sakura flower icon monochrome" role="img">
+  <rect width="64" height="64" rx="12" fill="#ffffff"/>
+  <g fill="#000000">
+    <ellipse cx="32" cy="19" rx="8" ry="14"/>
+    <ellipse cx="44.4" cy="28" rx="8" ry="14" transform="rotate(72 44.4 28)"/>
+    <ellipse cx="39.7" cy="42.5" rx="8" ry="14" transform="rotate(144 39.7 42.5)"/>
+    <ellipse cx="24.3" cy="42.5" rx="8" ry="14" transform="rotate(216 24.3 42.5)"/>
+    <ellipse cx="19.6" cy="28" rx="8" ry="14" transform="rotate(288 19.6 28)"/>
   </g>
-  <circle cx="32" cy="32" r="8" fill="url(#center)"/>
-  <circle cx="32" cy="32" r="2" fill="#8c4a2f"/>
+  <circle cx="32" cy="32" r="6.5" fill="#ffffff"/>
+  <circle cx="32" cy="32" r="3" fill="#000000"/>
 </svg>
