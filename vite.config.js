@@ -5,8 +5,4 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/site-sakura/',
   plugins: [react()],
-  build: {
-    outDir: 'docs',
-    emptyOutDir: true,
-  },
 })
