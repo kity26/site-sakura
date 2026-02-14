@@ -1,36 +1,11 @@
-name: Deploy Site Sakura
+name: Deploy Site Sakura (manual only)
 
 on:
-  push:
-    branches: [ main ]
-
-permissions:
-  contents: write
+  workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  disabled-note:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build
-        run: npm run build
-
-      - name: Create 404.html for SPA fallback
-        run: cp dist/index.html dist/404.html
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+      - name: Disabled
+        run: echo "Automatic deploy is disabled. GitHub Pages should use Deploy from branch (main/docs)."
