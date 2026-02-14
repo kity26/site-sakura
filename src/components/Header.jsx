@@ -20,7 +20,7 @@ const Header = () => {
 
       <h1 data-aos="fade-down"
         data-aos-easing="linear"
-        data-aos-duration="1500" className="text-2xl md:text-3xl lg:text-4xl font-semibold tracking-[0.18em] m-0 text-[#fff2e6] [text-shadow:0_0_8px_rgba(233,155,99,0.75),0_0_20px_rgba(233,155,99,0.55)]">
+        data-aos-duration="1500" className="text-xl md:text-2xl lg:text-3xl font-semibold tracking-[0.18em] m-0 text-[#fff2e6] [text-shadow:0_0_8px_rgba(233,155,99,0.75),0_0_20px_rgba(233,155,99,0.55)]">
         SAKURA
       </h1>
 
