@@ -31,7 +31,7 @@ const Header = () => {
         {/* Bouton Reseaux */}
         <Link
           to="/reseaux"
-          className="border border-[#2a2a2a] py-2 px-6 sm:px-8 rounded-full text-sm sm:text-base font-semibold tracking-wider transition-all duration-300 hover:bg-[#1a1a1a] bg-gray-300 text-black hover:text-white"
+          className="border border-[#2a2a2a] py-2 px-5 sm:px-7 rounded-full text-sm sm:text-base font-semibold tracking-wider transition-all duration-300 hover:bg-[#1a1a1a] bg-gray-300 text-black hover:text-white"
           data-aos="fade-down"
           data-aos-easing="linear"
           data-aos-duration="500"
