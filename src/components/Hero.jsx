@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
-        <main className="flex lg:mt-20 flex-col lg:flex-row items-center justify- between min-h-[calc(90vh-6rem)]">
+        <main className="flex lg:mt-20 flex-col lg:flex-row items-center justify-between min-h-[calc(90vh-6rem)]">
 
             <div data-aos="fade-right"
                 data-aos-offset="300"
-                data-aos-easing="ease-in-sine" className="max-w-x1 ml-[5%] z-10 mt-[90%] md:mt-[60%] lg:mt-0">
+                data-aos-easing="ease-in-sine" className="max-w-xl ml-[5%] z-10 mt-[90%] md:mt-[60%] lg:mt-0">
                 {/* Tag box-with gradient border */}
                 <div className='relative w-[95% sm:w-48 h-10 bg-gradient-to-r from-[#656565] to-[#e99b63] shadow-[0_0_15px_rgba(255,255,255,0.4)] rounded-full'>
                     <div className='absolute inset-[3px] bg-black rounded-full flex items-center justify-center gap-1'>
@@ -18,7 +18,7 @@ const Hero = () => {
                 </div>
 
                 {/* Main  Heading */}
-                <h1 className='text-3xl sm:text-4x1 md:text-5xl lg:test-6xl font-semibold tracking-wider my-8'>
+                <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold tracking-wider my-8'>
                     SAKURA
                     <br />
                     E-SPORT TEAMS
@@ -43,12 +43,16 @@ const Hero = () => {
                 </div>
             </div>
 
-            {/* 3D Robot - Désactivé temporairement */}
-            {/* <Spline data-aos="fade-zoom-in"
+            {/* 3D Robot - Réactivé */}
+            <Spline
+                data-aos="fade-zoom-in"
                 data-aos-easing="ease-in-back"
                 data-aos-delay="300"
-                data-aos-offset="0" data-aos-duration="3000" className='absolute lg:top-0 top-[-20%] bottom-0  lg:left-[25%] sm:left-[-2%] h-full' scene="https://draft.spline.design/b7VAQ-cpJvqccDHf/scene.splinecode"
-            /> */}
+                data-aos-offset="0"
+                data-aos-duration="3000"
+                className='absolute lg:top-0 top-[-20%] bottom-0 lg:left-[25%] sm:left-[-2%] h-full'
+                scene="https://draft.spline.design/b7VAQ-cpJvqccDHf/scene.splinecode"
+            />
       
         </main>
     );
