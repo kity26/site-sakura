@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && copy /Y \"docs\\index.html\" \"docs\\404.html\" && xcopy /E /I /Y docs\\* .",
+    "build": "vite build && copy /Y \"docs\\index.html\" \"docs\\404.html\"",
     "lint": "eslint .",
     "preview": "vite preview"
   },
